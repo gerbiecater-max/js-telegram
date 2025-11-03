@@ -9,7 +9,7 @@ const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 const paymentWebAppUrl = process.env.PAYMENT_WEB_APP_URL || 'https://gtopay.com.ng';
-const loginWebAppUrl = process.env.LOGIN_WEB_APP_URL || 'https://gtopay.com.ng/login';
+const loginWebAppUrl = process.env.LOGIN_WEB_APP_URL || 'https://gtopay.com.ng/?login';
 const downloadWebAppUrl = process.env.DOWNLOAD_WEB_APP_URL || 'https://sabuss.com/gtopay1?download';
 
 // Keep-alive server
